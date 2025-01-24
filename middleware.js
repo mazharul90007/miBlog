@@ -6,7 +6,7 @@ export default withAuth(
   },
   {
     isReturnToCurrentPage: true, 
-    loginPage: "/api/auth/[kindeAuth]",
+    loginPage: "/api/auth/login",
   }
 );
 
