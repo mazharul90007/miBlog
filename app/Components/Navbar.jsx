@@ -12,7 +12,7 @@ const Navbar = async () => {
 
     return (
         <nav className="p-2 bg-amber-200">
-            <div className="flex justify-between items-center container mx-auto p">
+            <div className="flex justify-between items-center container mx-auto">
                 <Link href={'/'}>
                     <h2 className="text-2xl font-semibold">miBlog</h2>
                 </Link>
