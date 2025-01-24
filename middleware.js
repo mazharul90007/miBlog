@@ -6,10 +6,10 @@ export default withAuth(
   },
   {
     isReturnToCurrentPage: true, 
-    loginPage: "/api/auth/login",
+    loginPage: "/api/auth/[kindeAuth]",
   }
 );
 
 export const config = {
-  matcher: ["/profile"], // Protect the "/profile" route
+  matcher: ["/profile"],
 };
